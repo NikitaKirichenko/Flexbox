@@ -1,0 +1,160 @@
+.conteiner {
+    /* background: url(./img/Сетка.png);
+    background-position: center;
+    background-size: cover; */
+    /* background-color: aquamarine;
+    margin-top: 0; */
+}
+
+.intro {
+    max-width: 1005px;
+    min-width: 947px;
+    display: flex;
+    justify-content: space-between;
+    margin: 77px auto 94px auto;
+}
+
+.title-1 {
+    font-family: Tahoma;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 15px;
+
+}
+
+.title-2 {
+    font-family: Tahoma;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.description {
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 47px;
+}
+
+.price {
+    font-family: Tahoma;
+    font-size: 48px;
+    /* line-height: 27px; */
+    font-weight: 400;
+    color: #313131;
+    margin-bottom: 51px;
+}
+
+.button-1 {
+    font-family: Tahoma;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 175px;
+    height: 67px;
+    background-color: #f05a22;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-2 {
+    font-family: Tahoma;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #f05a22;
+    width: 287px;
+    height: 67px;
+    border: 2px solid #f05a22;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    background-color: rgba(154, 156, 157, 0.09);
+    padding-top: 91px;
+    padding-bottom: 101px;
+}
+
+.title-3 {
+    font-family: Tahoma;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.tool-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1005px;
+    align-items: center;
+    margin: auto;
+}
+
+.text {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customer-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.window {
+    object-fit: cover;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    padding-top: 87px;
+}
+
+/* .customer-box {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(2, 270px);
+    justify-content: center;
+    margin-top: 87px;
+    padding-bottom: 101px;
+} */
+
+.title-4 {
+    font-family: Tahoma;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
