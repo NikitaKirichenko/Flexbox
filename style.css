@@ -41,6 +41,7 @@
     font-weight: 400;
     color: #000000;
     margin-bottom: 47px;
+    width: 526px;
 }
 
 .price {
@@ -76,6 +77,11 @@
     border: 2px solid #f05a22;
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+.button-1:hover {
+    cursor: pointer;
+
 }
 
 .button-box {
@@ -124,21 +130,25 @@
 
 .customer-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1100px;
     margin: auto;
 }
 
 .window {
-    object-fit: cover;
-    overflow: hidden;
-    width: 250px;
-    height: 250px;
+    object-fit: none;
+    /* margin-right: 15px;
+    margin-left: 10px; */
+
 }
+ .window:nth-child(4n) {
+    margin-right:  0px;
+ }
 
 .footer {
     padding-top: 87px;
+    padding-bottom: 101px;
 }
 
 /* .customer-box {
@@ -157,4 +167,5 @@
     font-weight: 700;
     color: #333333;
     text-align: center;
+    margin-bottom: 40px;
 }
